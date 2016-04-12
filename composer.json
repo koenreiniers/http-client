@@ -1,0 +1,24 @@
+{
+    "name": "koenreiniers/http-client",
+    "type": "library",
+    "description": "",
+    "keywords": ["event", "driven", "http", "client"],
+    "homepage": "http://www.koenreiniers.nl/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koen Reiniers",
+            "email": "contact@koenreiniers.nl",
+            "homepage": "http://www.koenreiniers.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kr\\HttpClient\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "symfony/event-dispatcher": "^3.0"
+    }
+}
